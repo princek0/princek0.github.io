@@ -1,2 +1,1 @@
-# princek0.github.io
-Personal website
+My personal website
