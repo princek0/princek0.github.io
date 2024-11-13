@@ -1,5 +1,9 @@
-.name {
+.title {
     margin: 0 auto;
+    text-align: center;
+}
+
+.video-container {
     text-align: center;
 }
 
@@ -9,3 +13,4 @@ img {
     width: auto;
     margin: 16px auto;
 }
+
