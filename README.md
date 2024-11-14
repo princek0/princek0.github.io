@@ -13,5 +13,4 @@ Currently under development
 - ~Add link to Oxford Quantum club~
 - ~Add link to chess~
 - ~Add Dragon ball to interests~
-- Edit Volution Page
-- Add discord username
+- ~Edit Volution Page~
