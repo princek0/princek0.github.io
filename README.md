@@ -14,4 +14,4 @@ Currently under development
 - ~Add link to chess~
 - ~Add Dragon ball to interests~
 - ~Edit Volution Page~
-- Add styling and make website look nicer (but prioritise easy of access to information)
+- Add styling and make website look nicer (but prioritise ease of access to information)
