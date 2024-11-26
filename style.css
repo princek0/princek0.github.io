@@ -3,6 +3,24 @@
     text-align: center;
 }
 
+body {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;           
+}
+
+.container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+p {
+    max-width: 600px;
+    text-align: justify; 
+}
+
 .video-container {
     text-align: center;
 }
