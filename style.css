@@ -9,6 +9,11 @@ body {
     align-items: center;           
 }
 
+* {
+    font-family: 'Times New Roman', Times, serif';
+}
+
+
 .container {
     display: flex;
     text-align: left;
