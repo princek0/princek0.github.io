@@ -1,6 +1,6 @@
 # My personal website
 
-Currently under development
+Find my live website here: https://www.thisisprince.com/
 
 # To-Do
 
