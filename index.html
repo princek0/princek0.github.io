@@ -9,24 +9,31 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title"> Prince </h1>
-        <p class="title"><i>(Yuvraj Kumar)</i></p>
+        <div class="date-display" id="current-date"></div>
+        <div class="title-container">
+            <h1 class="title">Prince</h1>
+            <p class="subtitle"><i>(Yuvraj Kumar)</i></p>
+        </div>
 
-        <img src="media/me.jpeg" alt="A picture of Prince">
+        <div class="image-container">
+            <img src="media/me.jpeg" alt="A picture of Prince">
+            <p class="image-caption">Photo taken at ASPR 24' by <a href="https://ie.linkedin.com/in/vazquezj" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Juan Vazquez</a></p>
+        </div>
 
+        <h2 class="dropdown-header">About me <span class="dropdown-icon">▼</span></h2>
+        <div class="dropdown-content">
+            <p> I was a boarder at <a href="https://www.stpaulsschool.org.uk/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">St. Paul's School</a> in London between 2022 and 2024.
+                I'm currently on a gap year and will be studying BA Mathematics at <a href="https://www.ox.ac.uk/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Oxford University</a> starting in October 2025. At the moment, I'm studying machine learning, working on my AI startup, and learning C++. In my free time, I play chess, go to the gym, and travel.</p>
 
-        <h2> About me (13/03/2025) </h2>
+            <ul>
+                <li> Email: yuviyukt [at] [google's mail] [dot][com] </li>
+                <li> <a href="https://www.github.com/princek0" target="_blank" rel="noopener noreferrer" style="text-decoration:none"> Github </a></li>
+                <li> <a href="https://orcid.org/0009-0009-7656-7453" target="_blank" rel="noopener noreferrer" style="text-decoration:none"> Orcid </a></li>
+            </ul>
+        </div>
 
-        <p> I was a boarder at <a href="https://www.stpaulsschool.org.uk/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">St. Paul's School</a> in London between 2022 and 2024.
-            I'm currently on a gap year and will be studying BA Mathematics at <a href="https://www.ox.ac.uk/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Oxford University</a> starting in October 2025. At the moment, I'm studying machine learning, working on my AI startup, and learning C++. In my free time, I play chess, go to the gym, and travel.</p>
-
-        <ul>
-            <li> Email: yuviyukt [at] [google's mail] [dot][com] </li>
-            <li> <a href="https://www.github.com/princek0" target="_blank" rel="noopener noreferrer" style="text-decoration:none"> Github </a></li>
-        </ul>
-
-        <h2> Projects </h2>
-        <ul>
+        <h2 class="dropdown-header">Projects <span class="dropdown-icon">▼</span></h2>
+        <ul class="dropdown-content">
             <li> <a href="https://protocolml.com/" style="text-decoration:none"> ProtocolML - Real-Time telecommunications fraud detection software </a> (Startup funding received) </li>
             <li> <a href="https://github.com/princek0/Eye-to-mouse-tracker" style="text-decoration:none"> Face, eyes, and blink detection using Python OpenCV </a></li>
             <li> <a href="https://www.founderyoke.com" style="text-decoration:none">Founderyoke (tinder for co-founders). </a> Open the live web-app <a href="https://founderyoke.live/" style="text-decoration:none" target="_blank" rel="noopener noreferrer">here.</a> </li>
@@ -36,8 +43,8 @@
             <li> <a href="media/Linear_Fractional_Functions.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Group expository paper on Fractional Linear Transformations </a></li>
         </ul>
 
-        <h2> Experiences </h2>
-        <ul>
+        <h2 class="dropdown-header">Experiences <span class="dropdown-icon">▼</span></h2>
+        <ul class="dropdown-content">
             <li><a href="https://www.recurse.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Recurse Center batch March 2025</a></li>
             <li><a href="https://accenture.pinpointhq.com/en/postings/c886c1af-3c9f-47ff-9223-37c61dd73170" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Accenture consulting Social Impact Week 2025</a></li>
             <li><a href="https://www.danubesummit.org/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Danube Winter Startup Summit in Budapest</a> (received a travel grant)</li>
@@ -48,8 +55,8 @@
             <li><a href="https://www.physics.ox.ac.uk/engage/schools/secondary-schools/projects-and-mentoring/quantum-club" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Oxford Quantum Club</a></li>
         </ul>
 
-        <h2> Achievements </h2>
-        <ul>
+        <h2 class="dropdown-header">Achievements <span class="dropdown-icon">▼</span></h2>
+        <ul class="dropdown-content">
             <li>Received £7,750 in funding along with mentorship to build an AI B2B startup</li>
             <li>Received a travel grant to attend the Danube Winter Startup Summit</li>
             <li>British Mathematics Olympiad Round 2 Merit (top 100ish nationally)</li>
@@ -57,6 +64,8 @@
             <li>Maclaurin Olympiad Silver Medal (top 50 nationally)</li>
             <li><a href="https://www.englishchess.org.uk/Juniors/world-youth-rapid-blitz-in-salobrena-spain/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Junior England Chess squad, British Chess U100 Champion, British Chess Rapidplay U110 Champion </a></li>
         </ul>
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
