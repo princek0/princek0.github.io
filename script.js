@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Try to update the date only if the element exists
     const dateElement = document.getElementById('current-date');
     if (dateElement) {
-        updateCurrentDate();
+        displayLastModifiedDate();
     }
     
     // Initialize all dropdowns closed by default
@@ -36,10 +36,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Function to update the date display
-function updateCurrentDate() {
-    const now = new Date();
-    const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
-    const formattedDate = now.toLocaleDateString('en-GB', options);
-    document.getElementById('current-date').textContent = formattedDate;
+// Function to display the last modified date
+function displayLastModifiedDate() {
+    // This date should be manually updated when the site content changes
+    const lastModified = "14/03/2025"; // Format: DD/MM/YYYY
+    
+    // Alternative approach: use the document's last modified date (less reliable for local files)
+    // Uses the HTML file's last modified date if available
+    if (!lastModified) {
+        try {
+            const lastModifiedDate = new Date(document.lastModified);
+            const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+            document.getElementById('current-date').textContent = lastModifiedDate.toLocaleDateString('en-GB', options);
+        } catch (e) {
+            console.error("Couldn't determine last modified date:", e);
+            document.getElementById('current-date').textContent = "Unknown date";
+        }
+    } else {
+        document.getElementById('current-date').textContent = "Last updated: " + lastModified;
+    }
 } 
