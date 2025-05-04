@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Function to display the last modified date
 function displayLastModifiedDate() {
     // This date should be manually updated when the site content changes
-    const lastModified = "08/04/2025"; // Format: DD/MM/YYYY
+    const lastModified = "04/05/2025"; // Format: DD/MM/YYYY
     
     // Alternative approach: use the document's last modified date (less reliable for local files)
     // Uses the HTML file's last modified date if available
