@@ -34,12 +34,44 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Carousel functionality
+    const carousel = document.querySelector('.carousel');
+    const items = carousel.querySelectorAll('.carousel-item');
+    const prevButton = document.querySelector('.prev-arrow');
+    const nextButton = document.querySelector('.next-arrow');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        // Remove active class from all items
+        items.forEach(item => item.classList.remove('active'));
+        
+        // Add active class to current item
+        items[index].classList.add('active');
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % items.length;
+        showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + items.length) % items.length;
+        showSlide(currentIndex);
+    }
+
+    // Add event listeners to buttons
+    nextButton.addEventListener('click', nextSlide);
+    prevButton.addEventListener('click', prevSlide);
+
+    // Initialize the carousel
+    showSlide(currentIndex);
 });
 
 // Function to display the last modified date
 function displayLastModifiedDate() {
     // This date should be manually updated when the site content changes
-    const lastModified = "05/05/2025"; // Format: DD/MM/YYYY
+    const lastModified = "28/05/2025"; // Format: DD/MM/YYYY
     
     // Alternative approach: use the document's last modified date (less reliable for local files)
     // Uses the HTML file's last modified date if available
