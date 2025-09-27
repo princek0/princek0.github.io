@@ -15,9 +15,17 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Processing header:', header.textContent.trim());
         const content = header.nextElementSibling;
         
-        // Initially close all dropdowns
+        // Initially close all dropdowns except "About me"
         if (content && content.classList.contains('dropdown-content')) {
-            content.classList.remove('active');
+            const headerText = header.textContent.trim();
+            if (headerText.includes('About me')) {
+                // Keep "About me" expanded by adding active class
+                content.classList.add('active');
+                header.classList.add('active');
+            } else {
+                // Close all other dropdowns
+                content.classList.remove('active');
+            }
         }
         
         // Add click event listener to all headers
