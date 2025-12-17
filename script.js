@@ -74,6 +74,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize the carousel
     showSlide(currentIndex);
+    
+    // Initialize unique views counter
+    initializeUniqueViewsCounter();
 });
 
 // Function to display the last modified date
@@ -94,5 +97,110 @@ function displayLastModifiedDate() {
         }
     } else {
         document.getElementById('current-date').textContent = "Last updated: " + lastModified;
+    }
+}
+
+// Unique Views Counter Functions
+const COUNTAPI_NAMESPACE = 'prince-personal-site';
+const STORAGE_KEY = 'uniqueViewTimestamp';
+
+// Get the start of the current week (Monday 00:00:00)
+function getWeekStart() {
+    const now = new Date();
+    const day = now.getDay();
+    const diff = now.getDate() - day + (day === 0 ? -6 : 1); // Adjust to Monday
+    const weekStart = new Date(now.getFullYear(), now.getMonth(), diff);
+    weekStart.setHours(0, 0, 0, 0);
+    return weekStart;
+}
+
+// Get a unique key for the current week (format: YYYY-MM-DD of Monday)
+function getWeekKey() {
+    const weekStart = getWeekStart();
+    const year = weekStart.getFullYear();
+    const month = String(weekStart.getMonth() + 1).padStart(2, '0');
+    const day = String(weekStart.getDate()).padStart(2, '0');
+    return `unique-views-${year}-${month}-${day}`;
+}
+
+// Check if visitor has been counted this week
+function hasBeenCountedThisWeek() {
+    try {
+        const lastCounted = localStorage.getItem(STORAGE_KEY);
+        if (!lastCounted) {
+            return false;
+        }
+        
+        const lastCountedDate = new Date(parseInt(lastCounted));
+        const weekStart = getWeekStart();
+        
+        return lastCountedDate >= weekStart;
+    } catch (e) {
+        console.error('Error checking localStorage:', e);
+        return false;
+    }
+}
+
+// Store timestamp of current visit
+function storeVisitTimestamp() {
+    try {
+        localStorage.setItem(STORAGE_KEY, Date.now().toString());
+    } catch (e) {
+        console.error('Error storing timestamp:', e);
+    }
+}
+
+// Increment counter via CountAPI
+async function incrementCounter(weekKey) {
+    try {
+        const response = await fetch(`https://api.countapi.xyz/hit/${COUNTAPI_NAMESPACE}/${weekKey}`);
+        const data = await response.json();
+        return data.value;
+    } catch (e) {
+        console.error('Error incrementing counter:', e);
+        return null;
+    }
+}
+
+// Fetch current count from CountAPI
+async function getCurrentCount(weekKey) {
+    try {
+        const response = await fetch(`https://api.countapi.xyz/get/${COUNTAPI_NAMESPACE}/${weekKey}`);
+        const data = await response.json();
+        return data.value || 0;
+    } catch (e) {
+        console.error('Error fetching count:', e);
+        return null;
+    }
+}
+
+// Display the unique views count
+function displayUniqueViewsCount(count) {
+    const counterElement = document.getElementById('unique-views-counter');
+    if (counterElement && count !== null) {
+        counterElement.textContent = `Unique views this week: ${count}`;
+    } else if (counterElement) {
+        counterElement.textContent = '';
+    }
+}
+
+// Initialize unique views counter
+async function initializeUniqueViewsCounter() {
+    const weekKey = getWeekKey();
+    
+    // First, display the current count (may be stale, but better than nothing)
+    const currentCount = await getCurrentCount(weekKey);
+    if (currentCount !== null) {
+        displayUniqueViewsCount(currentCount);
+    }
+    
+    // Check if this visitor should be counted
+    if (!hasBeenCountedThisWeek()) {
+        // Increment the counter
+        const newCount = await incrementCounter(weekKey);
+        if (newCount !== null) {
+            displayUniqueViewsCount(newCount);
+            storeVisitTimestamp();
+        }
     }
 } 
