@@ -1,44 +1,50 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded');
-    
-    // Try to update the date only if the element exists
     const dateElement = document.getElementById('current-date');
     if (dateElement) {
         displayLastModifiedDate();
     }
-    
-    // Initialize all dropdowns closed by default
+
     const dropdownHeaders = document.querySelectorAll('.dropdown-header');
-    console.log('Found dropdown headers:', dropdownHeaders.length);
-    
-    dropdownHeaders.forEach(header => {
-        console.log('Processing header:', header.textContent.trim());
+
+    function toggleDropdown(header) {
+        header.classList.toggle('active');
+        const isExpanded = header.classList.contains('active');
+        header.setAttribute('aria-expanded', isExpanded);
+
         const content = header.nextElementSibling;
-        
-        // Initially close all dropdowns except "About me"
         if (content && content.classList.contains('dropdown-content')) {
-            const headerText = header.textContent.trim();
-            if (headerText.includes('About me')) {
-                // Keep "About me" expanded by adding active class
+            if (isExpanded) {
                 content.classList.add('active');
-                header.classList.add('active');
+                content.style.maxHeight = content.scrollHeight + 'px';
             } else {
-                // Close all other dropdowns
+                content.style.maxHeight = '0';
                 content.classList.remove('active');
             }
         }
-        
-        // Add click event listener to all headers
-        header.addEventListener('click', function(e) {
-            console.log('Header clicked:', this.textContent.trim());
-            // Toggle active class on header
-            this.classList.toggle('active');
-            
-            // Toggle content visibility
-            const content = this.nextElementSibling;
-            if (content && content.classList.contains('dropdown-content')) {
-                content.classList.toggle('active');
-                console.log('Toggled dropdown content');
+    }
+
+    dropdownHeaders.forEach(header => {
+        const content = header.nextElementSibling;
+
+        if (content && content.classList.contains('dropdown-content')) {
+            const headerText = header.textContent.trim();
+            if (headerText.includes('About me')) {
+                content.classList.add('active');
+                content.style.maxHeight = content.scrollHeight + 'px';
+                header.classList.add('active');
+                header.setAttribute('aria-expanded', 'true');
+            } else {
+                content.classList.remove('active');
+                content.style.maxHeight = '0';
+                header.setAttribute('aria-expanded', 'false');
+            }
+        }
+
+        header.addEventListener('click', function() { toggleDropdown(this); });
+        header.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleDropdown(this);
             }
         });
     });
