@@ -65,6 +65,13 @@ p {
     text-align: justify; 
 }
 
+.about-timeline {
+    text-align: left;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 .video-container {
     text-align: center;
     width: 100%;
