@@ -4,130 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prince</title>
+    <meta name="description" content="Prince — chess, mathematics, companies.">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="media/favicon.jpg">
-    <style> a:visited { color : blue; } </style>
-    <script type="importmap">
-    {
-        "imports": {
-            "@chenglou/pretext": "https://esm.sh/@chenglou/pretext@0.0.4"
-        }
-    }
-    </script>
+    <link rel="icon" type="image/svg+xml" href="media/favicon.svg">
 </head>
 <body>
-    <div class="container">
-        <div class="title-container">
-            <h1 class="title">Prince</h1>
-            <p class="subtitle"><i>(Yuvraj Kumar)</i></p>
-        </div>
+    <main>
+        <header>
+            <h1>Prince</h1>
+            <p class="alias">Yuvraj Kumar</p>
+        </header>
 
-        <div class="pretext-wrap" id="pretext-wrap">
-            <canvas id="pretext-canvas"></canvas>
-        </div>
+        <p class="lede">As a kid I played chess for England and competed in mathematics olympiads. At 19 I became the youngest investor at Entrepreneurs First, then went up to Oxford to read mathematics. I dropped out in my first year to work on microagi full time.</p>
 
-        <div class="carousel-container">
-            <button class="carousel-arrow prev-arrow" aria-label="Previous image">◀</button>
-            <div class="carousel">
-                <div class="carousel-item active">
-                    <img src="media/pic1.jpg" alt="A picture of Prince">
-                </div>
-                <div class="carousel-item">
-                    <img src="media/headshot.jpg" alt="Professional headshot">
-                </div>
-                <div class="carousel-item">
-                    <img src="media/pic2.jpg" alt="Prince with EF LD 25 Founders">
-                    <p class="image-caption">Entrepreneurs First LD 25 Founders</p>
-                </div>
-                <div class="carousel-item">
-                    <img src="media/me.jpeg" alt="A picture of Prince">
-                    <p class="image-caption">Photo taken at ASPR 24' by <a href="https://ie.linkedin.com/in/vazquezj" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Juan Vazquez</a></p>
-                </div>
-                <div class="carousel-item">
-                    <img src="media/chess.jpg" alt="Playing chess">
-                    <p class="image-caption">Beating a Candidate Master</p>
-                </div>
-            </div>
-            <button class="carousel-arrow next-arrow" aria-label="Next image">▶</button>
-        </div>
+        <section>
+            <h2>Writing</h2>
+            <p><a href="https://thisisprince.bearblog.dev/" target="_blank" rel="noopener noreferrer">Blog</a></p>
+        </section>
 
-        <h2 class="dropdown-header" role="button" tabindex="0" aria-expanded="true" aria-controls="section-about">About me <span class="dropdown-icon">▼</span></h2>
-        <div class="dropdown-content" id="section-about">
-            <p class="about-timeline">
-                &gt; Born in New Delhi, India<br>
-                &gt; Moved to the UK when I was 3<br>
-                &gt; Taught myself to code and built malware when I was 7<br>
-                &gt; Represented Team England in the World Youth Chess Championships at age 12<br>
-                &gt; Top 50 nationally in maths olympiads at age 15<br>
-                &gt; Offered places at the best boarding schools in the UK with financial aid at age 16<br>
-                &gt; Top ~30 in maths in Europe (PROMYS Europe) at age 17<br>
-                &gt; Attended Rationality Camps (ASPR 24') on a full scholarship at age 18<br>
-                &gt; Youngest investor at EF and offered to join the cohort as a founder at age 19<br>
-                &gt; Now: dropped out of oxford & working at microagi 
-            </p>
-
-            <ul>
-                <li> Email: yuviyukt [at] [google's mail] [dot][com] </li>
-                <li> <a href="https://www.github.com/princek0" target="_blank" rel="noopener noreferrer" style="text-decoration:none"> Github </a></li>
-                <li> <a href="https://thisisprince.bearblog.dev/" target="_blank" rel="noopener noreferrer" style="text-decoration:none"> Blog </a></li>
-                <li> <a href="https://www.linkedin.com/in/yuvraj-k/" target="_blank" rel="noopener noreferrer" style="text-decoration:none"> LinkedIn </a></li>
+        <section>
+            <h2>Path by age</h2>
+            <ul class="timeline">
+                <li><span class="age">00</span>Born in New Delhi</li>
+                <li><span class="age">03</span>Moved to London</li>
+                <li><span class="age">07</span>Taught myself to code. Malware, first.</li>
+                <li><span class="age">12</span>Team England, World Youth Chess Championships</li>
+                <li><span class="age">15</span>Top 50 nationally in mathematics olympiads</li>
+                <li><span class="age">16</span>Offers from Britain's best boarding schools, on financial aid</li>
+                <li><span class="age">17</span>PROMYS Europe, six weeks of number theory at Oxford</li>
+                <li><span class="age">18</span>Rationality camp, full scholarship</li>
+                <li><span class="age">19</span>Youngest investor at Entrepreneurs First, then up to Oxford</li>
+                <li><span class="age">now</span>Left in first year. Building at microagi full time.</li>
             </ul>
-        </div>
+        </section>
 
-        <h2 class="dropdown-header" role="button" tabindex="0" aria-expanded="false" aria-controls="section-achievements">Achievements <span class="dropdown-icon">▼</span></h2>
-        <ul class="dropdown-content" id="section-achievements">
-            <li><a href="https://www.englishchess.org.uk/Juniors/world-youth-rapid-blitz-in-salobrena-spain/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Junior England Chess squad, Winner at British Chess Championships </a></li>
-            <li>PROMYS Europe 2023 Attendee (Top 30 in Europe)</li>
-            <li>ASPR 24' Full Scholarship Recipient (Top 30 Globally)</li>
-            <li>British Mathematics Olympiad Round 2 Distinction (Top 50 Nationally)</li>
-            <li>Maclaurin Olympiad Silver Medal (Top 50 Nationally)</li>
-            <li><a href="https://paretofellowship.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Pareto Fellow</a> (mentors include founders of Lovable)</li>
-            <li>Received $10,000 in grants along with mentorship to build whatever I wanted</li>
-        </ul>
-
-        <h2 class="dropdown-header" role="button" tabindex="0" aria-expanded="false" aria-controls="section-experiences">Experiences <span class="dropdown-icon">▼</span></h2>
-        <div class="dropdown-content" id="section-experiences">
-            <h3 class="experience-subtitle">Professional</h3>
+        <section>
+            <h2>Record</h2>
             <ul>
-                <li><a href="https://bluedot.org/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Bluedot Impact</a> Def/Acc Operator (helping people build AI safety companies)</li>
-                <li><a href="https://www.soda.io/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Soda.io</a> Growth Intern (backed by Hummingbird VC & Point Nine Capital)</li>
-                <li><a href="https://www.joinef.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Entrepreneurs First</a> Summer Talent Investment Intern</li>
+                <li>Team England<span class="note"> — World Youth Chess Championships</span></li>
+                <li>British Chess Championships<span class="note"> — winner</span></li>
+                <li>PROMYS Europe<span class="note"> — top 30 in Europe, six weeks at Oxford</span></li>
+                <li>ASPR<span class="note"> — rationality camp, top 30 globally, full scholarship</span></li>
+                <li>British Mathematical Olympiad<span class="note"> — round 2 distinction, top 50 nationally</span></li>
+                <li>Maclaurin Olympiad<span class="note"> — silver, top 50 nationally</span></li>
+                <li>Pareto Fellow</li>
             </ul>
-            
-            <h3 class="experience-subtitle">Other</h3>
-            <ul>
-                <li><a href="https://oaisi.org/arbox3" target="_blank" rel="noopener noreferrer" style="text-decoration:none">ARBOx3</a> — Machine Learning Alignment Research Bootcamp</li>
-                <li><a href="https://optiver.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Optiver</a> European Chess Championship Live Finals (I was flown out to Amsterdam as the only pre-university participant)</li>
-                <li><a href="https://www.ycombinator.com/blog/ai-startupschool" target="_blank" rel="noopener noreferrer" style="text-decoration:none">YCombinator AI Startup school</a> selective 2 day conference in SF (flown out by YC)</li>
-                <li><a href="https://www.recurse.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Recurse Center batch March 2025</a> — a hybrid programming retreat based in NYC</li>
-                <li><a href="https://www.aspr.camp/what" target="_blank" rel="noopener noreferrer" style="text-decoration:none">ASPR 2024 (FABRIC/ESPR Rationality camp)</a> (received a full travel scholarship covering flights, accomodation, and food for 10 days)</li>
-                <li><a href="https://promys-europe.org/about-promys-europe/overview/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">PROMYS Europe 2023</a> — a selective number theory maths camp held for 6 weeks at Oxford University for 30 of the highest scoring in the selection test</li>
-            </ul>
-        </div>
+        </section>
 
-        <h2 class="dropdown-header" role="button" tabindex="0" aria-expanded="false" aria-controls="section-projects">Projects <span class="dropdown-icon">▼</span></h2>
-        <ul class="dropdown-content" id="section-projects">
-            <li> <a href="https://varsityhackathon.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Oxford vs. Cambridge Varsity Hackathon</a> Founder & Director (raised $20,000 in sponsorship)</li>
-            <li> <a href="https://luma.com/def-acc-hack" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Def/Acc Hackathon</a> (Organised with Bluedot Impact)</li>
-            <li> <a href="https://luma.com/AI-security-hackathon" target="_blank" rel="noopener noreferrer" style="text-decoration:none">AI Security Hackathon</a> (Sponsored by Bluedot Impact, Workshop Labs, and Geodesic Research)</li>
-            <li> <a href="https://intrvue.ai/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Intrvue.ai</a> (AI interviewer for 11+ admissions, generated revenue in one week)</li>
-            <li> <a href="https://github.com/princek0/GramiraML/tree/main" style="text-decoration:none"> Gramira </a> (Instant text correction in any textbox using an LLM) </li>
-            <li> <a href="https://lu.ma/copenhagen-ebl?tk=xofASC" target="_blank" rel="noopener noreferrer" style="text-decoration:none">European Builders League Copenhagen hackathon</a> by EF, Find my project <a href="https://x.com/maxencejm/status/1921867620782850409" target="_blank" rel="noopener noreferrer" style="text-decoration:none">here</a></li>
-            <li> <a href="https://github.com/princek0/Accenture-Challenge-Project" style="text-decoration:none"> Accenture Challenge Project </a> (Website with tech career resources) </li>
-            <li> <a href="https://protocolml.com/" style="text-decoration:none"> ProtocolML - Real-Time telecommunications fraud detection software </a></li>
-            <li> <a href="https://github.com/princek0/Eye-to-mouse-tracker" style="text-decoration:none"> Face, eyes, and blink detection using Python OpenCV </a></li>
-            <li> <a href="https://www.founderyoke.com" style="text-decoration:none">Founderyoke (tinder for co-founders). </a> Open the live web-app <a href="https://founderyoke.live/" style="text-decoration:none" target="_blank" rel="noopener noreferrer">here</a> </li>
-            <li> <a href="https://github.com/princek0/News-sentiment-analyzer" style="text-decoration:none"> NLP news sentiment analyzer</a></li>
-            <li> <a href="pages/Volution.html" style="text-decoration:none">Volution (air-allergen sensors)</a></li>
-            <li> <a href="https://www.researchgate.net/publication/376070452_Navigating_dilemmas_Chinas_environmental_policies_and_their_implications_for_climate_change_resource_management_and_future_generations" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Paper on the implications of China's environmental policies</a> </li>
-            <li> <a href="media/Linear_Fractional_Functions.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Group expository paper on Fractional Linear Transformations </a></li>
-        </ul>
-        
-        <div class="date-display" id="current-date"></div>
-        <div class="date-display" id="unique-views-counter"></div>
-    </div>
-    
-    <script src="script.js"></script>
-    <script type="module" src="pretext-cursor.js"></script>
+        <section>
+            <h2>Work</h2>
+            <ul>
+                <li>microagi<span class="note"> — full time</span></li>
+                <li>Bluedot Impact<span class="note"> — Def/Acc operator, helping people start AI safety companies</span></li>
+                <li>Soda.io<span class="note"> — growth, backed by Hummingbird and Point Nine</span></li>
+                <li>Entrepreneurs First<span class="note"> — talent investment, originally invited as founder</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Built</h2>
+            <ul>
+                <li>Varsity Hackathon<span class="note"> — Oxford vs Cambridge, founder and director, $20,000 raised</span></li>
+                <li>Def/Acc, AI Security<span class="note"> — hackathons organised with Bluedot Impact</span></li>
+                <li>Intrvue.ai<span class="note"> — AI interviewer for 11+ admissions, revenue in a week</span></li>
+                <li>ProtocolML<span class="note"> — real-time fraud detection for telecoms</span></li>
+                <li>Founderyoke<span class="note"> — matching for co-founders</span></li>
+                <li>Gramira<span class="note"> — instant LLM text correction in any text box</span></li>
+                <li><a href="pages/Volution.html">Volution</a><span class="note"> — air-allergen sensors, a team of nine, I was CEO</span></li>
+                <li>Papers<span class="note"> — fractional linear transformations, China's environmental policy</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Elsewhere</h2>
+            <ul>
+                <li>Recurse Center<span class="note"> — programming retreat, New York</span></li>
+                <li>ARBOx3<span class="note"> — machine learning alignment research bootcamp</span></li>
+                <li>Optiver European Chess Championship<span class="note"> — finals, the only player still at school</span></li>
+                <li>Y Combinator AI Startup School<span class="note"> — flown out to San Francisco</span></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>29.07.2026</p>
+        </footer>
+    </main>
 </body>
 </html>
