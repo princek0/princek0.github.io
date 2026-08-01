@@ -1,0 +1,36 @@
+---
+import EntryList from "../components/EntryList.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { built, elsewhere, record, timeline, work } from "../data/profile";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const description =
+  "Prince — path by age, record, work, things built, and elsewhere.";
+---
+
+<BaseLayout title="About" {description}>
+  <SiteHeader current="about" />
+
+  <section class="page-section">
+    <h2>Path by age</h2>
+    <ul class="timeline">
+      {
+        timeline.map((entry) => (
+          <li>
+            <span class="age">{entry.age}</span>
+            {entry.text}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <EntryList heading="Record" entries={record} />
+  <EntryList heading="Work" entries={work} />
+  <EntryList heading="Built" entries={built} />
+  <EntryList heading="Elsewhere" entries={elsewhere} />
+
+  <footer class="site-footer">
+    <p>29.07.2026</p>
+  </footer>
+</BaseLayout>

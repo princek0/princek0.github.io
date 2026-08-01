@@ -1,19 +1,24 @@
 ---
 interface Props {
-  current?: "home" | "blog";
+  current?: "home" | "blog" | "about";
+  showAlias?: boolean;
 }
 
-const { current } = Astro.props;
+const { current, showAlias = false } = Astro.props;
 ---
 
 <header class="site-header">
   <a class="site-title" href="/">
     <h1>Prince</h1>
   </a>
+  {showAlias && <p class="alias">Yuvraj Kumar</p>}
   <nav class="site-nav" aria-label="Main navigation">
     <a href="/" aria-current={current === "home" ? "page" : undefined}>Home</a>
     <a href="/blog/" aria-current={current === "blog" ? "page" : undefined}>
       Blog
+    </a>
+    <a href="/about/" aria-current={current === "about" ? "page" : undefined}>
+      About
     </a>
   </nav>
 </header>

@@ -1,4 +1,5 @@
 ---
+import SiteHeader from "../../components/SiteHeader.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
@@ -6,11 +7,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
   title="Volution"
   description="Volution — affordable air-allergen sensors built by a team of nine."
 >
-  <p class="back"><a href="/">&larr; Home</a></p>
+  <SiteHeader current="about" />
 
-  <header>
-    <h1>Volution</h1>
-  </header>
+  <h1 class="article-title">Volution</h1>
 
   <p class="lede">Air-allergen sensors. A company of nine. I was CEO.</p>
 

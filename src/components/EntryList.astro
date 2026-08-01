@@ -1,0 +1,26 @@
+---
+import type { ProfileEntry } from "../data/profile";
+
+interface Props {
+  heading: string;
+  entries: ProfileEntry[];
+}
+
+const { heading, entries } = Astro.props;
+---
+
+<section class="page-section">
+  <h2>{heading}</h2>
+  <ul class="plain-list">
+    {
+      entries.map((entry) => (
+        <li>
+          {entry.href ? <a href={entry.href}>{entry.name}</a> : entry.name}
+          {/* The separator lives inside the note so spacing cannot be lost to
+              template line breaks. */}
+          {entry.note && <span class="note">{` — ${entry.note}`}</span>}
+        </li>
+      ))
+    }
+  </ul>
+</section>

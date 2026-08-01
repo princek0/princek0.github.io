@@ -131,10 +131,6 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-.site-header--home {
-  margin-bottom: 0;
-}
-
 .site-title,
 .site-title:hover {
   text-decoration: none;
@@ -163,12 +159,13 @@ header:focus-within .alias {
 }
 
 .site-nav a {
+  display: inline-block;
   margin-right: 1.5ch;
 }
 
 .lede,
 .prose,
-.home-section {
+.page-section {
   margin-top: 3rem;
 }
 
@@ -335,12 +332,6 @@ math[display="block"] {
   min-height: 1.85em;
   margin-top: 0.5rem;
   color: var(--ink-muted);
-}
-
-.back {
-  margin-bottom: 3rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
 }
 
 video {
