@@ -1,0 +1,132 @@
+---
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const statusId = `like-status-${slug}`;
+---
+
+<section class="like-region" data-like-root data-slug={slug}>
+  <button
+    class="like-button"
+    type="button"
+    data-like-button
+    data-liked="false"
+    aria-describedby={statusId}
+    aria-label="Load likes"
+    aria-pressed="false"
+    disabled
+  >
+    <svg
+      class="like-icon"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <polyline points="17 11 12 6 7 11"></polyline>
+      <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+    <small data-like-count aria-hidden="true">—</small>
+  </button>
+  <p class="like-status" id={statusId} data-like-status role="status">
+    Loading likes…
+  </p>
+  <noscript><p class="like-status">Likes require JavaScript.</p></noscript>
+</section>
+
+<script>
+  interface LikeResponse {
+    count: number;
+    liked: boolean;
+  }
+
+  function isLikeResponse(value: unknown): value is LikeResponse {
+    if (!value || typeof value !== "object") {
+      return false;
+    }
+
+    const candidate = value as Partial<LikeResponse>;
+    return (
+      Number.isSafeInteger(candidate.count) &&
+      Number(candidate.count) >= 0 &&
+      typeof candidate.liked === "boolean"
+    );
+  }
+
+  function initializeLikeButton(root: HTMLElement) {
+    if (root.dataset.likeReady === "true") {
+      return;
+    }
+    root.dataset.likeReady = "true";
+
+    const slug = root.dataset.slug;
+    const button = root.querySelector<HTMLButtonElement>("[data-like-button]");
+    const count = root.querySelector<HTMLElement>("[data-like-count]");
+    const status = root.querySelector<HTMLElement>("[data-like-status]");
+
+    if (!slug || !button || !count || !status) {
+      return;
+    }
+
+    const endpoint = `/api/likes/${encodeURIComponent(slug)}/`;
+
+    const render = (like: LikeResponse) => {
+      count.textContent = String(like.count);
+      button.dataset.liked = String(like.liked);
+      button.setAttribute("aria-pressed", String(like.liked));
+      button.setAttribute(
+        "aria-label",
+        like.liked ? `Liked (${like.count})` : `Like this post (${like.count})`,
+      );
+      button.disabled = like.liked;
+      status.textContent = like.liked ? "You liked this post." : "";
+    };
+
+    const request = async (method: "GET" | "POST"): Promise<LikeResponse> => {
+      const response = await fetch(endpoint, {
+        method,
+        credentials: "same-origin",
+        headers:
+          method === "POST" ? { "Content-Type": "application/json" } : {},
+        body: method === "POST" ? "{}" : undefined,
+      });
+      const result: unknown = await response.json();
+
+      if (!response.ok || !isLikeResponse(result)) {
+        throw new Error("The like service returned an invalid response.");
+      }
+
+      return result;
+    };
+
+    button.addEventListener("click", async () => {
+      button.disabled = true;
+      status.textContent = "Saving…";
+
+      try {
+        render(await request("POST"));
+      } catch {
+        button.disabled = false;
+        status.textContent = "Could not save your like. Please try again.";
+      }
+    });
+
+    request("GET")
+      .then(render)
+      .catch(() => {
+        button.disabled = true;
+        button.setAttribute("aria-label", "Likes unavailable");
+        status.textContent = "Likes are unavailable right now.";
+      });
+  }
+
+  document
+    .querySelectorAll<HTMLElement>("[data-like-root]")
+    .forEach(initializeLikeButton);
+</script>

@@ -1,0 +1,36 @@
+---
+import SiteHeader from "../../components/SiteHeader.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  formatPostDate,
+  getPostPath,
+  getPublishedPosts,
+} from "../../lib/posts";
+
+const posts = await getPublishedPosts();
+const description =
+  "Prince's writing on technology, science, startups, and education.";
+---
+
+<BaseLayout title="Blog" {description}>
+  <SiteHeader current="blog" />
+
+  <section aria-labelledby="writing-heading">
+    <h2 id="writing-heading">Writing</h2>
+    <ul class="blog-posts">
+      {
+        posts.map((post) => (
+          <li>
+            <time
+              class="post-date"
+              datetime={post.data.publishedAt.toISOString()}
+            >
+              {formatPostDate(post.data.publishedAt)}
+            </time>
+            <a href={getPostPath(post)}>{post.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</BaseLayout>

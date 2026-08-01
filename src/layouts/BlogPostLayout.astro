@@ -1,0 +1,65 @@
+---
+import LikeButton from "../components/LikeButton.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { formatPostDate } from "../lib/posts";
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  publishedAt: Date;
+  updatedAt?: Date;
+  socialImage?: string;
+  slug: string;
+}
+
+const { title, description, publishedAt, updatedAt, socialImage, slug } =
+  Astro.props;
+
+const canonical = new URL(`/blog/${slug}/`, Astro.site);
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  author: {
+    "@type": "Person",
+    name: "Prince",
+    url: new URL("/", Astro.site).toString(),
+  },
+  dateModified: (updatedAt ?? publishedAt).toISOString(),
+  datePublished: publishedAt.toISOString(),
+  description,
+  headline: title,
+  mainEntityOfPage: canonical.toString(),
+  ...(socialImage
+    ? { image: new URL(socialImage, Astro.site).toString() }
+    : {}),
+};
+---
+
+<BaseLayout {title} {description} {canonical} {socialImage} article={true}>
+  <script
+    slot="head"
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(articleSchema)}
+  />
+
+  <SiteHeader current="blog" />
+
+  <article>
+    <header class="article-header">
+      <h1 class="article-title">{title}</h1>
+      <p class="article-meta">
+        <time datetime={publishedAt.toISOString()}>
+          {formatPostDate(publishedAt)}
+        </time>
+      </p>
+    </header>
+
+    <div class="article-body">
+      <slot />
+    </div>
+
+    <LikeButton {slug} />
+  </article>
+</BaseLayout>

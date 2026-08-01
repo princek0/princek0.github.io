@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.netlify/
+supabase/.temp/
+.env
+.env.*
+!.env.example
+coverage/
+*.log

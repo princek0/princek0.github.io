@@ -1,0 +1,15 @@
+---
+import SiteHeader from "../components/SiteHeader.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Page not found"
+  description="The requested page could not be found."
+>
+  <SiteHeader />
+  <section>
+    <h2>Page not found</h2>
+    <p>The page you requested does not exist. <a href="/">Return home</a>.</p>
+  </section>
+</BaseLayout>
