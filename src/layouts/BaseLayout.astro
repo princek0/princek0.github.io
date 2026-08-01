@@ -3,7 +3,7 @@ import "../styles/global.css";
 
 interface Props {
   title?: string;
-  description: string;
+  description?: string;
   canonical?: URL | string;
   socialImage?: string;
   article?: boolean;
@@ -30,7 +30,7 @@ const socialImageUrl = socialImage
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
-    <meta name="description" content={description} />
+    {description && <meta name="description" content={description} />}
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/media/favicon.svg" />
     <link
@@ -42,7 +42,9 @@ const socialImageUrl = socialImage
 
     <meta property="og:site_name" content="Prince" />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    {description && (
+      <meta property="og:description" content={description} />
+    )}
     <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:url" content={canonicalUrl} />
     {socialImageUrl && <meta property="og:image" content={socialImageUrl} />}
@@ -52,7 +54,9 @@ const socialImageUrl = socialImage
       content={socialImageUrl ? "summary_large_image" : "summary"}
     />
     <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    {description && (
+      <meta name="twitter:description" content={description} />
+    )}
     {socialImageUrl && <meta name="twitter:image" content={socialImageUrl} />}
     <slot name="head" />
   </head>
