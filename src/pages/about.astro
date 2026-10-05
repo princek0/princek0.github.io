@@ -1,11 +1,10 @@
 ---
 import EntryList from "../components/EntryList.astro";
 import SiteHeader from "../components/SiteHeader.astro";
-import { built, elsewhere, record, timeline, work } from "../data/profile";
+import { other, timeline, work } from "../data/profile";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const description =
-  "Prince — path by age, record, work, things built, and elsewhere.";
+const description = "Prince — path by age, work, and other projects.";
 ---
 
 <BaseLayout title="About" {description}>
@@ -25,10 +24,8 @@ const description =
     </ul>
   </section>
 
-  <EntryList heading="Record" entries={record} />
   <EntryList heading="Work" entries={work} />
-  <EntryList heading="Built" entries={built} />
-  <EntryList heading="Elsewhere" entries={elsewhere} />
+  <EntryList heading="Other" entries={other} />
 
   <footer class="site-footer">
     <p>29.07.2026</p>
