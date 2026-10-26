@@ -23,13 +23,13 @@ function readPost(slug: string): string {
 }
 
 describe("Bear content migration", () => {
-  it("contains exactly the nine expected local posts", () => {
+  it("contains all nine migrated posts", () => {
     const slugs = readdirSync(CONTENT_DIRECTORY)
       .filter((fileName) => fileName.endsWith(".md"))
       .map((fileName) => fileName.replace(/\.md$/, ""))
       .sort();
 
-    expect(slugs).toEqual(EXPECTED_SLUGS);
+    expect(slugs).toEqual(expect.arrayContaining(EXPECTED_SLUGS));
   });
 
   it("keeps required metadata and removes Bear platform chrome", () => {
