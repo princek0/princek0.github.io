@@ -12,7 +12,7 @@ I wanted to write the opposite: a list of things that many people consider signs
 This list is specifically about people born after 2002 in Western Europe and North America.
 
 1.  X times hackathon winner
-2.  "X times founder" or "Excited founder" on LinkedIn/X
+2.  "X times founder" or "Exited founder" on LinkedIn/X
 3.  Y Combinator Startup School on LinkedIn experience/education
 4.  Harvard CS50 or other online courses on LinkedIn profile
 5.  Participated in university startup societies/competitions
