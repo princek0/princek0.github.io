@@ -16,7 +16,7 @@ This list is specifically about people born after 2002 in Western Europe and Nor
 3.  Y Combinator Startup School on LinkedIn experience/education
 4.  Harvard CS50 or other online courses on LinkedIn profile
 5.  Participated in university startup societies/competitions
-6.  Member/committee at university clubs/societies (like quant trading societies etc. - niche things are good)
+6.  Member or committee of a university club or society (e.g. quant trading, finance or consulting societies; niche societies are an exception)
 7.  Writes long descriptions of past experiences on LinkedIn
 8.  Lots of recommendations on LinkedIn
 9.  Endorsed skills on LinkedIn
@@ -32,6 +32,10 @@ This list is specifically about people born after 2002 in Western Europe and Nor
 19. Scout at a fund but doesn't allocate money
 20. Always had a good sleep schedule and routine
 21. Never embarrassed themselves in public or private settings
+22. Ambassador for Claude, Lovable, etc.
+23. They have a good 'personal brand'
+24. They never say really stupid things
+25. They never say cringe things
 
 ## Some important disclaimers
 
