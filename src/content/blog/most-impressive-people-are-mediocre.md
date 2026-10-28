@@ -46,4 +46,4 @@ This list is specifically about people who were born after 2002 and grew up in W
 - This is not a judgment of any particular person. Some of my close friends whom I consider exceptional have traits on this list. Having one, or even several, doesn't automatically change my opinion of someone.
 - These are not recommendations or endorsements. I'm not encouraging anyone to do or avoid any of these things, including breaking rules or laws. The list is about my perceptions of talent, not about what is morally or legally right or wrong.
 - These are not statements about my own behaviour. Nothing on this list should be interpreted as a claim about what I personally have or haven't done.
-- The scope is deliberately narrow. My observations are limited to people born after 2002 in Western Europe and North America. I'm not claiming they apply to other generations or regions.
+- The scope is deliberately narrow. My observations are limited to people who were born after 2002 and grew up in Western Europe or North America. I'm not claiming they apply to other generations or regions.
