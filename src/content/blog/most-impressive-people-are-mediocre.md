@@ -17,7 +17,7 @@ This list is specifically about people born after 2002 in Western Europe and Nor
 4.  Harvard CS50 or other online courses on LinkedIn profile
 5.  Participated in university startup societies/competitions
 6.  Member or committee of a university club or society (e.g. quant trading, finance or consulting societies; niche societies are an exception)
-7.  Publicly claims to be an ex-pro esports player and says things like "Top 0.1%"
+7.  Claims to be an ex-pro esports player on LinkedIn, with things like "Top 0.1%"
 8.  Writes long descriptions of past experiences on LinkedIn
 9.  Lots of recommendations on LinkedIn
 10. Endorsed skills on LinkedIn
