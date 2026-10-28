@@ -17,25 +17,26 @@ This list is specifically about people born after 2002 in Western Europe and Nor
 4.  Harvard CS50 or other online courses on LinkedIn profile
 5.  Participated in university startup societies/competitions
 6.  Member or committee of a university club or society (e.g. quant trading, finance or consulting societies; niche societies are an exception)
-7.  Writes long descriptions of past experiences on LinkedIn
-8.  Lots of recommendations on LinkedIn
-9.  Endorsed skills on LinkedIn
-10. Went to almost all lectures at university when not compulsory
-11. Focused & got perfect grades during high school
-12. Never offended people with their opinions
-13. Has no enemies
-14. Never got in trouble at school
-15. Never tried to exploit rules / cheat in games
-16. Was popular at school
-17. Up to date with mainstream celebrities, actors and TV stars
-18. Has a balanced life
-19. Scout at a fund but doesn't allocate money
-20. Always had a good sleep schedule and routine
-21. Never embarrassed themselves in public or private settings
-22. Ambassador for Claude, Lovable, etc.
-23. They have a good 'personal brand'
-24. They never say really stupid things
-25. They never say cringe things
+7.  Publicly claims to be an ex-pro esports player and says things like "Top 0.1%"
+8.  Writes long descriptions of past experiences on LinkedIn
+9.  Lots of recommendations on LinkedIn
+10. Endorsed skills on LinkedIn
+11. Went to almost all lectures at university when not compulsory
+12. Focused & got perfect grades during high school
+13. Never offended people with their opinions
+14. Has no enemies
+15. Never got in trouble at school
+16. Never tried to exploit rules / cheat in games
+17. Was popular at school
+18. Up to date with mainstream celebrities, actors and TV stars
+19. Has a balanced life
+20. Scout at a fund but doesn't allocate money
+21. Always had a good sleep schedule and routine
+22. Never embarrassed themselves in public or private settings
+23. Ambassador for Claude, Lovable, etc.
+24. They have a good 'personal brand'
+25. They never say really stupid things
+26. They never say cringe things
 
 ## Some important disclaimers
 
