@@ -136,24 +136,6 @@ a:hover {
   text-decoration: none;
 }
 
-.alias {
-  color: var(--ink-muted);
-  letter-spacing: 0.14em;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-header:hover .alias,
-header:focus-within .alias {
-  opacity: 1;
-}
-
-@media (hover: none) {
-  .alias {
-    opacity: 1;
-  }
-}
-
 .site-nav {
   margin-top: 1.4rem;
 }
@@ -339,11 +321,6 @@ video {
   width: 100%;
   margin-top: 3rem;
   filter: grayscale(1);
-}
-
-.site-footer {
-  margin-top: 4.5rem;
-  color: var(--ink-muted);
 }
 
 .visually-hidden {
