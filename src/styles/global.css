@@ -225,6 +225,19 @@ a:hover {
   padding-left: 2.5ch;
 }
 
+.article-body details {
+  margin-top: 2.5rem;
+}
+
+.article-body summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.article-body summary:hover {
+  color: var(--ink-muted);
+}
+
 .article-body li + li {
   margin-top: 0.25rem;
 }

@@ -29,20 +29,22 @@ This list is specifically about people who were born after 2002 and grew up in W
 16. Never got in trouble at school
 17. Never tried to exploit rules / cheat in games
 18. Was popular at school
-19. Up to date with mainstream celebrities, actors and TV stars
-20. Has a balanced life
-21. Scout at a fund but doesn't allocate money
-22. Always had a good sleep schedule and routine
-23. Never embarrassed themselves in public or private settings
-24. Ambassador for Claude, Lovable, etc.
-25. They have a good 'personal brand'
-26. They never say really stupid things
-27. They never say cringe things
+19. Has a balanced life
+20. Scout at a fund but doesn't allocate money
+21. Always had a good sleep schedule and routine
+22. Never embarrassed themselves in public or private settings
+23. Ambassador for Claude, Lovable, etc.
+24. They have a good 'personal brand'
+25. They never say really stupid things
+26. They never say cringe things
 
-## Some important disclaimers
+<details>
+<summary>Some important disclaimers</summary>
 
 - These are observations, not rules. I'm not claiming that having any of these traits makes someone mediocre. I'm claiming that, in my experience, these traits are often mistaken for signs of exceptionality, when they can actually suggest the opposite. This is subjective, not a scientific or statistical finding.
 - This is not a judgment of any particular person. Some of my close friends whom I consider exceptional have traits on this list. Having one, or even several, doesn't automatically change my opinion of someone.
 - These are not recommendations or endorsements. I'm not encouraging anyone to do or avoid any of these things, including breaking rules or laws. The list is about my perceptions of talent, not about what is morally or legally right or wrong.
 - These are not statements about my own behaviour. Nothing on this list should be interpreted as a claim about what I personally have or haven't done.
 - The scope is deliberately narrow. My observations are limited to people who were born after 2002 and grew up in Western Europe or North America. I'm not claiming they apply to other generations or regions.
+
+</details>
