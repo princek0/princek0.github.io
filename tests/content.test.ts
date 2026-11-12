@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 
 import { describe, expect, it } from "vitest";
@@ -13,9 +13,7 @@ const EXPECTED_SLUGS = [
   "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
   "dropping-out-of-oxford",
   "reflections-on-an-ai-security-hackathon-we-ran",
-  "takeaways-from-how-to-be-a-founder",
   "the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm",
-  "thoughts-on-being-pro-defence-and-national-security-pilled",
 ].sort();
 
 function readPost(slug: string): string {
@@ -23,7 +21,7 @@ function readPost(slug: string): string {
 }
 
 describe("Bear content migration", () => {
-  it("contains all nine migrated posts", () => {
+  it("contains all seven migrated posts", () => {
     const slugs = readdirSync(CONTENT_DIRECTORY)
       .filter((fileName) => fileName.endsWith(".md"))
       .map((fileName) => fileName.replace(/\.md$/, ""))
@@ -55,23 +53,6 @@ describe("Bear content migration", () => {
         /```python/g,
       ),
     ).toHaveLength(6);
-
-    const imagePost = readPost(
-      "thoughts-on-being-pro-defence-and-national-security-pilled",
-    );
-    expect(imagePost.match(/!\[[^\]]+\]\(\/media\/blog\//g)).toHaveLength(2);
-    expect(
-      existsSync(
-        path.join(
-          ROOT_DIRECTORY,
-          "public",
-          "media",
-          "blog",
-          "thoughts-on-being-pro-defence-and-national-security-pilled",
-          "image-1.png",
-        ),
-      ),
-    ).toBe(true);
   });
 });
 
@@ -87,7 +68,7 @@ describe("legacy like snapshot", () => {
 
     expect(capturedRows.map(([slug]) => slug).sort()).toEqual(EXPECTED_SLUGS);
     expect(capturedRows.reduce((total, [, count]) => total + count, 0)).toBe(
-      197,
+      171,
     );
   });
 });

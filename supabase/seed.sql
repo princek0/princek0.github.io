@@ -8,12 +8,10 @@ begin;
 insert into public.post_like_counts (post_slug, like_count)
 values
   ('dropping-out-of-oxford', 81),
-  ('thoughts-on-being-pro-defence-and-national-security-pilled', 17),
   ('checking-out-models-fine-tuning-to-suggest-chessgpts-understanding', 21),
   ('the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm', 25),
   ('3-takeaways-from-3-months-at-ef-as-a-talent-investor', 31),
   ('reflections-on-an-ai-security-hackathon-we-ran', 8),
-  ('takeaways-from-how-to-be-a-founder', 9),
   ('applying-stochastic-gradient-descent', 3),
   ('7-steps-to-build-a-horse-classifier-with-fastai', 2)
 on conflict (post_slug) do update

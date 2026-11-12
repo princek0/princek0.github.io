@@ -26,19 +26,18 @@ This list is specifically about people who were born after 2002 and grew up in W
 13. Went to almost all lectures at university when not compulsory
 14. Focused & got perfect grades during high school
 15. Never offended people with their opinions
-16. Has no enemies
-17. Never got in trouble at school
-18. Never tried to exploit rules / cheat in games
-19. Was popular at school
-20. Up to date with mainstream celebrities, actors and TV stars
-21. Has a balanced life
-22. Scout at a fund but doesn't allocate money
-23. Always had a good sleep schedule and routine
-24. Never embarrassed themselves in public or private settings
-25. Ambassador for Claude, Lovable, etc.
-26. They have a good 'personal brand'
-27. They never say really stupid things
-28. They never say cringe things
+16. Never got in trouble at school
+17. Never tried to exploit rules / cheat in games
+18. Was popular at school
+19. Up to date with mainstream celebrities, actors and TV stars
+20. Has a balanced life
+21. Scout at a fund but doesn't allocate money
+22. Always had a good sleep schedule and routine
+23. Never embarrassed themselves in public or private settings
+24. Ambassador for Claude, Lovable, etc.
+25. They have a good 'personal brand'
+26. They never say really stupid things
+27. They never say cringe things
 
 ## Some important disclaimers
 

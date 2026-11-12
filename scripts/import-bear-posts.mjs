@@ -14,22 +14,15 @@ const MEDIA_DIRECTORY = path.join(ROOT_DIRECTORY, "public", "media", "blog");
 
 const POSTS = [
   "dropping-out-of-oxford",
-  "thoughts-on-being-pro-defence-and-national-security-pilled",
   "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
   "the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm",
   "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
   "reflections-on-an-ai-security-hackathon-we-ran",
-  "takeaways-from-how-to-be-a-founder",
   "applying-stochastic-gradient-descent",
   "7-steps-to-build-a-horse-classifier-with-fastai",
 ];
 
-const IMAGE_ALT_TEXT = {
-  "thoughts-on-being-pro-defence-and-national-security-pilled": [
-    "Orange technical line drawings of an F-22 Raptor from four angles on a dark background.",
-    "Orange technical line drawings of a C-RAM air-defence system from four angles on a dark background.",
-  ],
-};
+const IMAGE_ALT_TEXT = {};
 
 function createTurndownService() {
   const service = new TurndownService({

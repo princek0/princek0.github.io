@@ -11,10 +11,6 @@ const SEED_FILE = path.join(ROOT_DIRECTORY, "supabase", "seed.sql");
 const BEAR_POSTS = [
   ["dropping-out-of-oxford", "miEcJtqJTLhbQajwVMui"],
   [
-    "thoughts-on-being-pro-defence-and-national-security-pilled",
-    "ocsyqmgBzLNGiJUfVALV",
-  ],
-  [
     "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
     "xiWeiUDKXKkESWTeYdUS",
   ],
@@ -27,7 +23,6 @@ const BEAR_POSTS = [
     "yqKUDRmdttNvzwFoUcRe",
   ],
   ["reflections-on-an-ai-security-hackathon-we-ran", "ZHKrCDgJAGIhiwNkyKvq"],
-  ["takeaways-from-how-to-be-a-founder", "XyJVPcwMiEHatNssXGUx"],
   ["applying-stochastic-gradient-descent", "BkdwfsijfkQwvSXUYjyj"],
   ["7-steps-to-build-a-horse-classifier-with-fastai", "RwFssxuMAuBMxKbhZHVp"],
 ];
