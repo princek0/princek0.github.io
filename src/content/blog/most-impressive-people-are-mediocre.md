@@ -23,20 +23,13 @@ This list is specifically about people who were born after 2002 and grew up in W
 10. Endorsed skills on LinkedIn
 11. Flexes Product Hunt rankings
 12. Features in public 'founder' showcases, e.g. 'Entrepreneur/Business of the Year'
-13. Went to almost all lectures at university when not compulsory
-14. Focused & got perfect grades during high school
-15. Never offended people with their opinions
-16. Never got in trouble at school
-17. Never tried to exploit rules / cheat in games
-18. Was popular at school
-19. Has a balanced life
-20. Scout at a fund but doesn't allocate money
-21. Always had a good sleep schedule and routine
-22. Never embarrassed themselves in public or private settings
-23. Ambassador for Claude, Lovable, etc.
-24. They have a good 'personal brand'
-25. They never say really stupid things
-26. They never say cringe things
+13. Focused & got perfect grades during high school
+14. Never offended people with their opinions
+15. Never tried to exploit rules / cheat in games
+16. Scout at a fund but doesn't allocate money
+17. Always had a good sleep schedule and routine
+18. Ambassador for Claude, Lovable, etc.
+19. They have a good 'personal brand'
 
 <details>
 <summary>Some important disclaimers</summary>
