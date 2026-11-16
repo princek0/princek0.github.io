@@ -14,6 +14,8 @@ Anyways, I just sent my rustication email (Oxford speak for suspending your stud
 
 Hope this short post helps people considering dropping out to reason about their choice.
 
+<img src="/media/waterhouse-ulysses-and-the-sirens.jpg" alt="Ulysses and the Sirens, a painting by John William Waterhouse in which Ulysses stands tied to the mast of his ship while sirens circle the rowing crew" style="filter: none" />
+
 ## Things I liked about Oxford and why you should (probably) stay
 
 There are undoubtedly many great things about going to university, specifically Oxford. You can meet friends and people very quickly and conveniently, including a lot of people you might not normally have met, and it's easy to meet romantic partners. You have a lot of free time to explore your interests, there are so many sports on offer that you get to try, and you can find research projects to work on. You mature and learn interpersonal skills you otherwise would not have. It's often a lot of fun to go drinking and clubbing with your friends, and it's a pretty chill/stable life. It's good for credibility reasons, and if you want a more traditional job (e.g. IB, Consulting, Trading, etc.), this is basically your only way of getting into one of those careers (academia also). It's also just a cool uni.
