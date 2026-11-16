@@ -18,8 +18,6 @@ const POSTS = [
   "the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm",
   "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
   "reflections-on-an-ai-security-hackathon-we-ran",
-  "applying-stochastic-gradient-descent",
-  "7-steps-to-build-a-horse-classifier-with-fastai",
 ];
 
 const IMAGE_ALT_TEXT = {};

@@ -23,8 +23,6 @@ const BEAR_POSTS = [
     "yqKUDRmdttNvzwFoUcRe",
   ],
   ["reflections-on-an-ai-security-hackathon-we-ran", "ZHKrCDgJAGIhiwNkyKvq"],
-  ["applying-stochastic-gradient-descent", "BkdwfsijfkQwvSXUYjyj"],
-  ["7-steps-to-build-a-horse-classifier-with-fastai", "RwFssxuMAuBMxKbhZHVp"],
 ];
 
 async function getLikeCount(uid) {

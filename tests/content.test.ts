@@ -8,8 +8,6 @@ const CONTENT_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "content", "blog");
 
 const EXPECTED_SLUGS = [
   "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
-  "7-steps-to-build-a-horse-classifier-with-fastai",
-  "applying-stochastic-gradient-descent",
   "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
   "dropping-out-of-oxford",
   "reflections-on-an-ai-security-hackathon-we-ran",
@@ -21,7 +19,7 @@ function readPost(slug: string): string {
 }
 
 describe("Bear content migration", () => {
-  it("contains all seven migrated posts", () => {
+  it("contains all five migrated posts", () => {
     const slugs = readdirSync(CONTENT_DIRECTORY)
       .filter((fileName) => fileName.endsWith(".md"))
       .map((fileName) => fileName.replace(/\.md$/, ""))
@@ -43,17 +41,6 @@ describe("Bear content migration", () => {
       );
     }
   });
-
-  it("preserves specialized math, code, and image content", () => {
-    expect(
-      readPost("applying-stochastic-gradient-descent").match(/<math\b/g),
-    ).toHaveLength(23);
-    expect(
-      readPost("7-steps-to-build-a-horse-classifier-with-fastai").match(
-        /```python/g,
-      ),
-    ).toHaveLength(6);
-  });
 });
 
 describe("legacy like snapshot", () => {
@@ -68,7 +55,7 @@ describe("legacy like snapshot", () => {
 
     expect(capturedRows.map(([slug]) => slug).sort()).toEqual(EXPECTED_SLUGS);
     expect(capturedRows.reduce((total, [, count]) => total + count, 0)).toBe(
-      171,
+      166,
     );
   });
 });
