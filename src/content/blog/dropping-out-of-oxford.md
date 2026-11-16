@@ -1,35 +1,22 @@
 ---
-title: "Dropping Out of Oxford University"
+title: "Dropping out of Oxford"
 description: "Ironically, I'm writing this post a few hours after watching Paul Graham speak live at the Oxford Union (thanks Daniel for adding me as a guest). Ironic beca..."
 publishedAt: "2026-06-12T11:00Z"
 draft: false
 legacyBearUrl: "https://thisisprince.bearblog.dev/dropping-out-of-oxford/"
 ---
 
+> **Update, 21 June 2026:** Oxford wouldn't let me suspend my course, so I had to fully withdraw.
+
 Ironically, I'm writing this post a few hours after watching Paul Graham speak live at the Oxford Union (thanks Daniel for adding me as a guest). Ironic because PG [believes students should NOT drop out](https://x.com/paulg/status/1948723683574333536).
 
 Anyways, I just sent my rustication email (Oxford speak for suspending your studies). I will be working full time for a start-up. Thanks Konrad @ Hummingbird for introing me to them.
-
-UPDATE 21/06/26: Oxford would not let me suspend my course temporarily so I had to fully withdraw from the course/university.
 
 Hope this short post helps people considering dropping out to reason about their choice.
 
 ## Things I liked about Oxford and why you should (probably) stay
 
-There are undoubtedly many great things about going to university, specifically Oxford. Here are some:
-
-- You can meet friends and people very quickly and conveniently
-- You have a lot of free time to explore your interests
-- So many sports on offer that you get to try
-- You can find research projects to work on
-- You meet a lot of people you might not normally have met
-- It's good for credibility reasons
-- You mature and learn interpersonal skills you otherwise would not have
-- It's often a lot of fun to go drinking and clubbing with your friends
-- It's a pretty chill/stable life
-- If you want a more traditional job (e.g. IB, Consulting, Trading, etc.), this is basically your only way of getting into one of those careers (academia also)
-- It's just a cool uni
-- It's easy to meet romantic partners
+There are undoubtedly many great things about going to university, specifically Oxford. You can meet friends and people very quickly and conveniently, including a lot of people you might not normally have met, and it's easy to meet romantic partners. You have a lot of free time to explore your interests, there are so many sports on offer that you get to try, and you can find research projects to work on. You mature and learn interpersonal skills you otherwise would not have. It's often a lot of fun to go drinking and clubbing with your friends, and it's a pretty chill/stable life. It's good for credibility reasons, and if you want a more traditional job (e.g. IB, Consulting, Trading, etc.), this is basically your only way of getting into one of those careers (academia also). It's also just a cool uni.
 
 These are your last few years before you actually have to grow up. You can afford to be stupid and immature until you graduate (and most people at Oxford are, including me). It's a great time to experiment and figure out who you are and what you care about.
 
@@ -37,7 +24,22 @@ Oxford is also a beautiful town, especially during Trinity Term (summer). The ar
 
 Some people would also benefit from the tutorial system, where you discuss the subject you are studying with a great academic.
 
-Anyways, there are really a lot of good reasons to go to university. You can probably think of more / reflect back on why you applied to Oxford in the first place.
+There are really a lot of good reasons to go to university. You can probably think of more / reflect back on why you applied to Oxford in the first place.
+
+## Things I really disliked about Oxford
+
+1.  Everyone assumes they're really smart. No one actually is (including me).
+2.  Massive memetic trap of people caring about quant, IB, consulting, and similar. Just lack of original thought.
+3.  People so afraid of being different.
+4.  I don't like UK higher education - why do I have to choose a specific degree? I'd like to have been able to study other subjects, I think, like in the US system.
+5.  General lack of ambition and drive to do great things.
+6.  There are actually, on average, not that many interesting people. You can optimise your final year of high school to do great on the Oxbridge interview/entrance exam and get in while actually not being very good at your subject and not being that interested in it. Great people sometimes get rejected, not great people often get accepted.
+7.  Too much of a focus on raw memorisation in my course. You can probably get a 2.1 by just memorising all the theorems and proofs in my degree (and there aren't actually that many).
+8.  I went to a posh public school (on financial aid) and there's still a sense of elitism here, which I realised recently I really don't like. It doesn't feel that meritocratic, to be honest.
+9.  Food is so bad.
+10. Rent is high.
+
+Probably a lot of other things I don't like.
 
 ## How I thought about dropping out
 
@@ -45,9 +47,9 @@ For context, I studied undergraduate maths @ Wadham College, University of Oxfor
 
 That job put me in a very unusual/fortunate position: I learned a lot about the 'real' world before university even started. Being one of the youngest people to work at EF ever came with a lot of credibility + my network exploded, which meant it was very easy for me to get a job at a start-up. I was even working at start-ups while studying for my degree.
 
-Additionally, I've always felt unnaturally more motivated and ambitious than everyone around me. I started feeling this even when I was 7 years old playing Minecraft, Call of Duty, and then chess, then during school with exams, and now with my career. It's obvious to me that I want to accelerate towards my goals as fast as possible, and that's one of the most important things to me.
+Additionally, I've always felt unusually more motivated and ambitious than everyone around me. I started feeling this even when I was 7 years old playing Minecraft, Call of Duty, and then chess, then during school with exams, and now with my career. It's obvious to me that I want to accelerate towards my goals as fast as possible, and that's one of the most important things to me.
 
-I actually enjoyed Oxford for the most part (though I'll mention the things I didn't like later). The reasons I decided to drop out were:
+I actually enjoyed Oxford for the most part (though there were things I didn't like, as mentioned above). The reasons I decided to drop out were:
 
 - I want to found a company some day. To do so, I need a) a phenomenal co-founder and b) great taste/xp in some idea. These are both much better solved working at a robotics start-up (I want exposure to robotics) than being here at Oxford.
 - I don't want to waste any time on studying for a degree. The only thing I want to do is work in start-ups / found a company right now.
@@ -59,13 +61,13 @@ The reason I decided to join a start-up instead of founding one is because I hav
 
 The decision wasn't all logic though. I did think a lot about missing friends and missing out on the social aspect of life. There was a period of a few days where I felt really anxious about everything and was considering just staying for the degree. I was seeing this girl who I really liked spending a lot of time with, and it felt quite uncomfortable giving all of that up because it was the first time I had something like it. I've also moved around schools a fair bit and haven't just settled down with a core group of friends before, and I was sort of hoping that I'd do so in uni.
 
+But then I also realised I'd meet a lot of people anyways and probably the core group I'm looking for will end up being people in the start-up world. So far, I've felt like I don't fit in anywhere. I think the main reason for this is because I've always focussed on other things that most people around me haven't cared about. I have a feeling working at this start-up I will find my people and my core group.
+
 But I realised that my ambition and will to achieve my goals trump everything else. If I want to reach my goals in the timeframe I have, then I can't afford to be at uni. These things come with a lot of sacrifice and risk, and I decided I'm willing to take that.
 
 On the risk part, I think dropping out is not actually that risky for me in terms of my career. Actually, I think EV-wise it's probably better because I'm joining a company I think will do very well, and being an early employee is great signal. Also, I want to found anyways, so that doesn't matter so much. I think the risky part is considering other aspects of life as a whole. I'm basically turning away from a normal phase in life that most people in the West go through (your college years), which means turning away from friends, relationships, immaturity, etc. This might turn out really bad for me. I could end up being very lonely and unsuccessful (career-wise) in the future. That would suck. But I'm willing to take that risk, and the prospect of things going extremely well for me some day is exciting. In the worst case, I don't think I'll ever be homeless.
 
 Success is obviously very important to me, but I'd also like to start my own family some day in the future (maybe after my first IPO idk).
-
-But then I also realised I'd meet a lot of people anyways and probably the core group I'm looking for will end up being people in the start-up world. So far, I've felt like I don't fit in anywhere. I think the main reason for this is because I've always focussed on other things that most people around me haven't cared about. I have a feeling working at this start-up I will find my people and my core group.
 
 Probably most of you reading this don't relate. You will probably end up finding a core group of friends and you won't need to consider this. I think dropping out should be done by people in really exceptional scenarios.
 
@@ -83,7 +85,7 @@ The other big thing is actually considering the place you are joining. You shoul
 
 Most start-ups actually really suck. Most people (including you) will probably have very poor taste in what good looks like. Start-ups are also often very desperate. I have a friend who I think is dropping out soon to join a start-up which, from the outside, looks okay but actually is quite bad. But they'll probably be fine anyways.
 
-Also, if you have the option, you should try to 'suspend' your studies for 1 year so that you have the option to return. I have asked the university to suspend my studies so that I can return if I want to, but I think I probably won't in any case. UPDATE 21/06/26: As I mentioned earlier in this post, Oxford did not let me suspend my studies so there is no possibility of me returning lol.
+If you have the option, try to suspend your studies for a year so you can come back. I asked Oxford to do this and they said no, so there is no possibility of me returning lol.
 
 Frankly, I don't think any of my friends who are currently at university should drop out. By default, you should assume you are not in a position to drop out.
 
@@ -101,21 +103,6 @@ Frankly, I don't think any of my friends who are currently at university should 
 10. Figure out your flaws and fix them, e.g. if you suck at communication then join the debating society, if you're unfit then join a sports society, etc.
 
 Whatever you do, just make sure to give 100% to it. If you're going to go out to party, then party hard, but make sure you can wake up the next day and give it your all when working on a new programming project or when revising. Just do your best on whatever you do.
-
-## Things I really disliked about Oxford
-
-1.  Everyone assumes they're really smart. No one actually is (including me).
-2.  Massive memetic trap of people caring about quant, IB, consulting, and similar. Just lack of original thought.
-3.  People so afraid of being different.
-4.  I don't like UK higher education - why do I have to choose a specific degree? I'd like to have been able to study other subjects, I think, like in the US system.
-5.  General lack of ambition and drive to do great things.
-6.  There are actually, on average, not that many interesting people. You can optimise your final year of high school to do great on the Oxbridge interview/entrance exam and get in while actually not being very good at your subject and not being that interested in it. Great people sometimes get rejected, not great people often get accepted.
-7.  Too much of a focus on raw memorisation in my course. You can probably get a 2.1 by just memorising all the theorems and proofs in my degree (and there aren't actually that many).
-8.  I went to a posh public school (on financial aid) and there's still a sense of elitism here, which I realised recently I really don't like. It doesn't feel that meritocratic, to be honest.
-9.  Food is so bad.
-10. Rent is high.
-
-Probably a lot of other things I don't like.
 
 ## Conclusion
 
