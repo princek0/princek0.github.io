@@ -1,50 +1,88 @@
 ---
 title: "Claim inflation"
-description: "Young people are exaggerating more to investors and start-ups. The clumsy lies get caught. The ones that work are small, told by able people, and rewarded by the way the start-up world checks claims."
+description: "A lot of young people are exaggerating, and sometimes lying, to VCs and to start-ups they want to join. Here are my thoughts on why it's happening."
 publishedAt: "2026-11-16T12:00Z"
 draft: false
 ---
 
-Over the past year or so, the claims young people make about themselves have got bigger. I mean people under about 23 who are trying to raise money from investors or get hired by start-ups. A side project is described as a company. A pilot is described as a customer. A number that was nearly true last month gets rounded up again this month. Most of this is exaggeration, and some of it is plain lying.
+## Contents
 
-I don't think I'm imagining it. Y Combinator seems to feel it too: earlier this year Garry Tan was on X telling founders to be earnest and stop larping.
+1. [What I'm seeing](#what-im-seeing)
+2. [The smaller reasons](#the-smaller-reasons)
+3. [The main reason](#the-main-reason)
+4. [Other things I've noticed](#other-things-ive-noticed)
+5. [Authenticity](#authenticity)
+6. [Founders who want to be acquired](#founders-who-want-to-be-acquired)
+7. [What I'd do about it](#what-id-do-about-it)
 
-The word I keep coming back to is inflation, and the analogy is closer than it first looks. When a currency inflates, the people who lose are the ones holding it, whether or not they printed any. Claims work the same way. An investor who has been burned a few times starts to discount everything they hear, and the discount is applied to everyone. So the founder who says "we have three paying customers" and means it loses twice: once because three is smaller than the invented numbers, and again because it gets marked down along with them. The people hurt most are the earnest ones, who are the people you would most want to win.
+## What I'm seeing
 
-Part of what I'm seeing may be an illusion. There are more ways to check a claim than there used to be, the start-up world is bigger, and what I see is filtered by where I sit and who I happen to talk to. So some of the increase is probably an increase in what gets noticed. But I don't think that accounts for most of it, and the more interesting question is why it's happening at all.
+I've noticed that a lot of young people, roughly under 23, are exaggerating and sometimes lying, both to start-ups they want to join and to VCs they want to raise from. It feels like hyperinflation in the claims people make about themselves.
 
-The explanations that come to mind first are all true and all minor. Some people don't realise they can be caught. Some say something that turns out to be wrong and never get round to correcting it. Some honestly don't know how ordinary their achievement is, and describe it the way it feels to them, which is something I touched on in [my last post](/blog/most-impressive-people-are-mediocre/). A few are compulsive, and will lie even to people they know already have the truth. And some have told the story so often that they now believe it. "A lie told a thousand times becomes the truth" is a line widely attributed to Joseph Goebbels, and it is usually taken to be about the audience. It works on the speaker first.
+Firms are feeling it, YC included. I guess that's why Garry Tan was on X earlier this year telling people to be earnest and stop larping.
 
-These explain the clumsy cases. They don't explain the cases that worry me, because the people I have in mind are not stupid, and most of them are not deluded either.
+This is obviously bad for investors and for start-ups that hire. I think it's worse for the young people who are good and earnest. If most applicants add something to their numbers, investors learn to discount what everyone says, and the person who told the truth gets discounted along with the rest. Whatever advantage they had from being good gets crushed.
 
-If Magnus Carlsen used an engine at just a few critical moments in each game, he would have a 100% win rate and nobody would be able to tell he was cheating, because every other move would be his own and his own moves are already excellent. Cheating is hardest to detect when it is a small addition to real ability.
+Some of this might be me noticing more, and there might be less of an increase than I think. It has become easier to check claims, the start-up world has grown, and the people I meet are filtered by where I've worked and who I already know. I think that effect is real but small.
 
-Exaggeration is the same. The lies that get caught are large ones, told by people with nothing behind them. The ones that work are small, and are told by people who are actually good. So what we catch is a poor guide to what is out there.
+Here are my thoughts on why it's happening.
 
-Here is the pattern, which I have now watched many times. Most ambitious people round up a little. A few notice that rounding up is never punished, and start doing it on purpose. With its help they get something real, an Emergent Ventures grant or whatever. At that point something important happens, which is that the exaggeration disappears. The grant is real, and nobody can call it a lie. Whoever looks at them next sees it, assumes the people who awarded it did the checking, and so does none of their own. Each institution relies on the diligence of the one before it. A small untruth at the start is laundered into a series of true facts.
+## The smaller reasons
 
-For some people this continues all the way up, and by the end there is little to distinguish them from someone who got there straight. The rest hit a wall. Either others notice that they are collecting badges without doing much, or the next rung needs ability they don't have. But the pressure doesn't go away. They are now surrounded by people one rung above them, and they have come to think of themselves as someone who is rising. The only thing left that can move their status is the story. So the claims grow largest at the moment there is least underneath them. And because by now they have told different versions to different people, retreating gets harder with every month. Some stop in time. Others keep going until it collapses.
+There are a lot of small reasons, and I'll go through them roughly in order of how often I see them.
 
-None of this is new. It is just happening younger. Like in chess, where you now need to be a GM by 12 to become world champion, everything starts earlier. Early-stage cheques and valuations have also grown enormously, so the stakes now arrive before the judgment does.
+The most common is that some people don't realise they can get caught. After that come people who said something incorrect, realised it later, and never bothered to fix it. Then there are people who honestly think a middling achievement is a good one, so they describe it in a way that sounds more impressive than it is without meaning to be dishonest. I wrote about this in [my last post](/blog/most-impressive-people-are-mediocre/).
 
-That is the main reason. The rest of what I've noticed is on the other side of the table, and I think it matters less. None of it is a primary cause. But people exaggerate more when exaggeration is cheap and well rewarded, and the start-up world currently makes it both.
+For some people the delusion goes deeper. "A lie told a thousand times becomes the truth" is widely attributed to Joseph Goebbels, and I've seen it happen to the person telling the lie. They repeat a version of their story so often that they start to believe it. There is also a small number of people who lie pathologically, sometimes to people they know already know the truth, and I think you meet them at a higher rate in the start-up world than elsewhere.
 
-Many of the things investors ask about are cheap to claim and impossible to check. How many potential customers did you speak to last week? In a ten-minute interview nobody can verify the answer, and both sides know it. The signals worth having are the ones that are costly to fake, like what someone has built, or whether the people who worked with them would do it again. But those take longer to read than ten minutes.
+Competition is part of it too. Everyone, including the best people, has realised how competitive things are. Early-stage valuations and cheque sizes are exploding, and it seems like the only reliable way to get those valuations is to be flashy and have status. That puts pressure on people to exaggerate who otherwise wouldn't.
 
-Investors have also become very public about what they want to hear. There are essays, videos and podcasts explaining precisely what a great founder sounds like. This was generous, and for a while it was useful. But a description of what you are looking for, once published, turns into a script, which is Goodhart's law applied to people. A few firms became known for stating their idea of a great founder very clearly, and I suspect the clarity has cost them. The partners who developed the idea can still tell the real thing from the recital, because they know what the description was a description of. Their successors inherit only the description.
+I also think some of it is inherited. Older founders did this as well, and it got passed down and amplified on the way, like Chinese whispers.
 
-A friend who invests made a related point to me about programmes that coach founders on how to pitch. The coaching is often done by people who have never watched anyone go from unpolished to great. Manchester United have won the Champions League more than once, but no current player was part of those teams, so the Manchester United of today doesn't know what it takes to win it. So what gets taught is the surface, and the surface is a script.
+Someone asked me whether people are lying as a kind of Machiavellian signalling. I don't think that's happening yet. People definitely perform: they play the killer founder, imitate Steve Jobs, and pick up mannerisms from podcasts. But lying still feels far too taboo in my circles, and it's a big no-no when someone does it and gets caught. It's possible I haven't been perceptive enough to see it, though I think that's unlikely.
 
-Then there is how little start-ups check. CVs hardly matter, hiring is fast, and the atmosphere is informal enough that people say things they would never say if they were being grilled by Blackstone. Young founders in particular seldom call references. Some have never worked anywhere that did. Some are in a hurry. And, as the same friend pointed out, the best candidates have several offers, so a founder worries that diligence will look like doubt. Older founders check far more, and I don't think that is a coincidence.
+## The main reason
 
-Lastly there is the money. More capital is chasing younger founders at an earlier stage than ever, and most of it sits with a small number of very large firms like a16z and GC competing to be first. When money has to decide quickly on thin evidence, it rewards what is visible. Honest founders see who gets funded and conclude, not unreasonably, that they can't compete without some flash of their own.
+I don't think this is a case of people being stupid, partly because most of the people I'm talking about aren't, but mainly because of the following.
 
-When I talked this over with my friend, he said the thing he now values most in a founder is authenticity, and then remarked how odd that is. It is like saying it's a big plus if someone isn't a liar. I've thought about this since, and I think authenticity is harder than honesty, which is why it is rarer. Most of the young people who perform the relentless founder are not lying. There is far more media about start-ups than there used to be, so people know what to say. Someone watches Nik from Revolut on David Senra's podcast and comes out trying to be the next Nik. They have absorbed a character without noticing. Peter Thiel, following René Girard, argues that we get most of our desires by imitating other people. If that's right, the hard part is not avoiding false statements. It is knowing which of your ambitions are your own. I don't think I'm exempt from this. There are times you feel completely sincere and are in fact reciting.
+If Magnus Carlsen used an engine at just a few critical moments in each game, he would have a 100% win rate and nobody would be able to tell he was cheating. All his other moves would be his own, and they're already the best in the world. I think exaggeration is similar. The best people are the hardest to catch, because a small exaggeration from someone who is actually good looks the same as the truth.
 
-It is also why I don't believe, as someone suggested to me, that lying has itself become a way of signalling ruthlessness. Performance is tolerated and even admired. Outright lying is still taboo in the circles I know, and the people who get caught pay for it. I find that reassuring. But performance and exaggeration are on the same road, and it is easy to drift from one to the other.
+Here is the cycle I keep seeing. Most smart people exaggerate a little bit. I do it to an extent, and so do most people I know. Some people notice that small exaggerations go unpunished and start to exploit that. They achieve some real things, partly helped by the exaggerations, e.g. an Emergent Ventures grant or whatever. Once they have it, the grant is real and nobody can call it a lie, and the next person who evaluates them assumes that whoever gave the grant already did the checking. So they use it to get the next achievement, and then the one after. Some keep going until they've got everything.
 
-There is one more group, small but worth describing, because their incentives are different in kind. They are not trying to build a company that lasts. They want one that will be acquired early, ideally by OpenAI or Anthropic, so that they arrive there at a more senior level than they could have been hired at. If you believe the labs are where the next few decades will be decided, this is a rational hedge, and I'll admit to some sympathy for the nerve of it, though none for misleading investors along the way. In a weird way this is the type of person Peter Thiel was maybe trying to describe when he said "if you're evil, you're not bad. And therefore, maybe you're actually kind of good." But notice what it does to honesty. A founder who expects to run a company for twenty years has to live with what they told people. A founder who only needs the story to hold until a transaction does not.
+The rest eventually hit a wall. Either people notice they're 'badge collecting' (a term that makes me cringe now), or they realise they're just not that impressive and can't get the next thing. They still feel the pressure from the people above them in the hierarchy, and by then the only thing left that can push their status higher is to exaggerate more, or lie.
 
-If I'm right about the causes, the remedies are mostly unglamorous. Investors and founders who hire should ask about the things that are costly to fake, and call the references, including the ones that weren't offered. They should be less explicit in public about what they want to hear, or at least assume that whatever they have published is now being recited back to them.
+I've seen this many, many times. Some people exaggerate a lot and stop before they do something too bad. Others get addicted to the dopamine hit, and because they've told different people different things, the whole thing snowballs and they can't back out without looking really bad. They either carry on lying or collapse.
 
-For people my age the argument is simpler. Inflation looks like everyone else's problem until you notice that your own claims are in the same currency. The start-up world is small and its memory is long. A career lasts decades, and nearly everything valuable in it depends on being believed by cofounders, by employees and by investors. Exaggeration borrows against that, at a rate that only looks low because the repayments haven't started. And there is an opportunity here too. When everyone else's claims are inflated, the cheapest way to stand out is to be the person whose claims survive being checked.
+None of this is new, it's just happening younger. Like in chess, where you now need to be a GM by 12 to become world champion, everything starts earlier, and early-stage capital has become outrageous on top of that.
+
+## Other things I've noticed
+
+None of these is a primary reason. They're on the investor and hiring side, and I think they make exaggerating easier and more tempting.
+
+There are a lot of small things VCs care about, and it's obvious which ones if you watch YouTube videos or read "how to get into YC" posts. Take the number of customer discovery calls you had last week. Someone can just say a bigger number, and in most cases nobody could check, especially in a 10-minute YC interview. These are cheap signals, easy to claim and impossible to verify, when the signals that matter are the ones that are costly to fake.
+
+Some funds make it so obvious what kind of founder they want that it backfires. Anyone intelligent can read what they've published and think "cool, so if I want to raise from them I should make my story about XYZ". That's Goodhart's law. I think these funds are still doing fine because the people who built the firm and its thesis from scratch can tell who's faking it. The moment those people leave, I think the firm might struggle.
+
+A friend who invests pointed out that programmes which teach founders to prepare a script have a similar problem. In his view the people teaching often do it poorly, because they've never seen someone go from unpolished to great. His analogy was football. Manchester United have won the Champions League multiple times, but no current player was part of those teams, so today's Manchester United doesn't know what it takes to win it.
+
+Reference checks happen much less in the start-up world than you'd think. Start-up hiring is so different from anything else (CVs aren't used much) that people feel they can say whatever, and they don't feel the pressure of being grilled by Blackstone. Even generally good founders aged about 23 to 30 don't put much effort into references. I guess some aren't used to it because they never worked at a bigger company, and some feel pressure to hire fast. My friend added that strong candidates often have multiple offers, so founders don't want to be seen as pushy or doubtful. With older founders the rate of reference checks is much higher.
+
+The last one is about money. Most early-stage capital sits with a few very large firms like a16z and GC, and when they compete to get into rounds early, flashy founders get rewarded for being flashy.
+
+## Authenticity
+
+The same friend told me authenticity is rare and a big plus when he sees it. Then he said that's a weird thing to say, because it should be normal. It's like saying it's a big plus if someone isn't a liar.
+
+I disagreed with him a bit, because I think it's quite hard to be actually authentic. There is far more media about start-ups than there used to be, so people know what to say. Someone watches Nik from Revolut on David Senra's podcast and comes out trying to posture as the next Nik. Most of these people aren't lying. Sometimes you feel like you're being authentic when you're being heavily influenced by what you've read and who you've been around. Peter Thiel talks about mimetic desire all the time, the idea that we want things because other people want them, and I'm sure it applies to me as well.
+
+## Founders who want to be acquired
+
+A smaller set of people aren't founding to build the next generational company. They want to build a company and exit, maybe to OpenAI or Anthropic, so that they get a more senior role there than they would otherwise. Their reasons are the same reasons a lot of people want to join the big labs, including hedging against a post-scarcity world and not wanting to be stuck in the underclass. The version I've heard goes like this: intern at a big lab, realise you're too far from the best people there, leave to start a company, and aim to exit after the seed round back into the lab at a higher level.
+
+When your incentive is no longer to build a good company, and you combine that with some of the things above, you end up saying a lot of BS to investors. I don't endorse misleading or lying to investors, ever. But in a strange way I can sympathise with the hustle. In a weird way this is the type of person Peter Thiel was maybe trying to describe when he said "if you're evil, you're not bad. And therefore, maybe you're actually kind of good."
+
+## What I'd do about it
+
+I don't have a full answer. If I were investing or hiring, I'd put more weight on the things that are costly to fake and less on numbers nobody can check. I'd do reference checks even when it feels pushy. I'd also be careful about publishing exactly what I want to hear from founders, since people will repeat it back to me.
+
+For people my age, I think a bit of exaggeration is normal, and I've already said I do it. The cycle above is where it goes wrong, when the exaggeration starts doing the work that the achievements should be doing. Getting caught lying is still a big no-no and the start-up world is small, so I'd try to stop before reaching that point.
