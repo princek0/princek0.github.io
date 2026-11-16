@@ -10,7 +10,7 @@ values
   ('dropping-out-of-oxford', 81),
   ('checking-out-models-fine-tuning-to-suggest-chessgpts-understanding', 21),
   ('the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm', 25),
-  ('3-takeaways-from-3-months-at-ef-as-a-talent-investor', 31),
+  ('early-reflections-on-working-as-a-talent-investor', 31),
   ('reflections-on-an-ai-security-hackathon-we-ran', 8)
 on conflict (post_slug) do update
 set

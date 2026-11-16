@@ -7,12 +7,18 @@ const ROOT_DIRECTORY = path.resolve(import.meta.dirname, "..");
 const CONTENT_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "content", "blog");
 
 const EXPECTED_SLUGS = [
-  "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
+  "early-reflections-on-working-as-a-talent-investor",
   "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
   "dropping-out-of-oxford",
   "reflections-on-an-ai-security-hackathon-we-ran",
   "the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm",
 ].sort();
+
+// Posts renamed after migration, mapped to their original Bear slug.
+const LEGACY_BEAR_SLUGS: Record<string, string> = {
+  "early-reflections-on-working-as-a-talent-investor":
+    "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
+};
 
 function readPost(slug: string): string {
   return readFileSync(path.join(CONTENT_DIRECTORY, `${slug}.md`), "utf8");
@@ -34,7 +40,7 @@ describe("Bear content migration", () => {
       expect(content).toMatch(/^---\ntitle: ".+"/);
       expect(content).toMatch(/\npublishedAt: "\d{4}-\d{2}-\d{2}T/);
       expect(content).toContain(
-        `legacyBearUrl: "https://thisisprince.bearblog.dev/${slug}/"`,
+        `legacyBearUrl: "https://thisisprince.bearblog.dev/${LEGACY_BEAR_SLUGS[slug] ?? slug}/"`,
       );
       expect(content).not.toMatch(
         /<script|<form|upvote-button|Powered by Bear/i,
