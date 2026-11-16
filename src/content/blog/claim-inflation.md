@@ -19,7 +19,7 @@ draft: false
 
 I've noticed that a lot of young people, roughly under 23, are exaggerating and sometimes lying, both to start-ups they want to join and to VCs they want to raise from. It feels like hyperinflation in the claims people make about themselves.
 
-![The Chess Players, a painting by Friedrich Moritz August Retzsch in which a young man plays chess against the Devil while an angel watches](/media/retzsch-the-chess-players.jpg)
+<img src="/media/retzsch-the-chess-players.jpg" alt="The Chess Players, a painting by Friedrich Moritz August Retzsch in which a young man plays chess against the Devil while an angel watches" style="filter: none" />
 
 Firms are feeling it, YC included. I guess that's why Garry Tan was on X earlier this year telling people to be earnest and stop larping.
 
