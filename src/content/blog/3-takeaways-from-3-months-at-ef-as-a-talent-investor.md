@@ -65,11 +65,4 @@ I noticed that I have much lower energy completing tasks that were set to me. I 
 
 Broadly speaking, this is a matter of unstructured games vs. structured games (the concept of which I learnt here at EF). A structured game is one where the rules and infrastructure of the game are well defined, e.g., a quantitative assessment. An unstructured game is where the rules and 'winning state' of the game are undefined, e.g., building a company. Growing up I've primarily played structured games (chess competitions, school exams, sports, etc.) and have only occasionally done unstructured things. It was only when I had (near) full autonomy at EF, which meant that I could really just run whatever I wanted (as long as I could convince someone to let me, which never was a big barrier). I've noticed that I feel more satisfaction when winning an unstructured game. It feels good to say that I did something on my own volition and that it went well.
 
-## tldr
-
-- Don't badge collect too much
-- Meet people as much as you can
-- Be agentic
-- EF is an amazing place to be
-- I've learned so much
-- Thanks again for letting me work here :)
+> **Disclaimer:** This is an old blog post. My opinions, thoughts and what I've learned have changed and updated a lot since I wrote it, so please don't treat this post as representative of what I think now.
