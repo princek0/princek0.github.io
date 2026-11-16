@@ -19,8 +19,6 @@ draft: false
 
 I've noticed that a lot of young people, roughly under 23, are exaggerating and sometimes lying, both to start-ups they want to join and to VCs they want to raise from. It feels like hyperinflation in the claims people make about themselves.
 
-<img src="/media/retzsch-the-chess-players.jpg" alt="The Chess Players, a painting by Friedrich Moritz August Retzsch in which a young man plays chess against the Devil while an angel watches" style="filter: none" />
-
 Firms are feeling it, YC included. I guess that's why Garry Tan was on X earlier this year telling people to be earnest and stop larping.
 
 This is obviously bad for investors and for start-ups that hire. I think it's worse for the young people who are good and earnest. If most applicants add something to their numbers, investors learn to discount what everyone says, and the person who told the truth gets discounted along with the rest. Whatever advantage they had from being good gets crushed.
@@ -28,6 +26,8 @@ This is obviously bad for investors and for start-ups that hire. I think it's wo
 Some of this might be me noticing more, and there might be less of an increase than I think. It has become easier to check claims, the start-up world has grown, and the people I meet are filtered by where I've worked and who I already know. I think that effect is real but small.
 
 Here are my thoughts on why it's happening.
+
+<img src="/media/retzsch-the-chess-players.jpg" alt="The Chess Players, a painting by Friedrich Moritz August Retzsch in which a young man plays chess against the Devil while an angel watches" style="filter: none" />
 
 ## The smaller reasons
 
