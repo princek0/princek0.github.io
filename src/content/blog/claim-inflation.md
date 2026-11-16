@@ -47,7 +47,7 @@ Someone asked me whether people are lying as a kind of Machiavellian signalling.
 
 I don't think this is a case of people being stupid, partly because most of the people I'm talking about aren't, but mainly because of the following.
 
-If Magnus Carlsen used an engine at just one critical moment in each game, he would have a 100% win rate and nobody would be able to tell he was cheating. All his other moves would be his own, and they're already the best in the world. I think exaggeration is similar. The best people are the hardest to catch, because a small exaggeration from someone who is actually good looks the same as the truth.
+If Magnus Carlsen cheated in tournaments by having someone signal to him whenever there was a critical position in each game, he would go from being the best in history to being unbeatable, without anyone knowing he was cheating. Every move would still be his own, and they're already the best in the world. I think exaggeration is similar. The best people are the hardest to catch, because a small exaggeration from someone who is actually good looks the same as the truth.
 
 Here is the cycle I keep seeing. Most smart people exaggerate a little bit. I do it to an extent, and so do most people I know. Some people notice that small exaggerations go unpunished and start to exploit that. They achieve some real things, partly helped by the exaggerations, e.g. an Emergent Ventures grant or whatever. Once they have it, the grant is real and nobody can call it a lie, and the next person who evaluates them assumes that whoever gave the grant already did the checking. So they use it to get the next achievement, and then the one after. Some keep going until they've got everything.
 
