@@ -7,7 +7,6 @@ const ROOT_DIRECTORY = path.resolve(import.meta.dirname, "..");
 const CONTENT_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "content", "blog");
 
 const EXPECTED_SLUGS = [
-  "early-reflections-on-working-as-a-talent-investor",
   "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
   "dropping-out-of-oxford",
   "reflections-on-an-ai-security-hackathon-we-ran",
@@ -15,17 +14,14 @@ const EXPECTED_SLUGS = [
 ].sort();
 
 // Posts renamed after migration, mapped to their original Bear slug.
-const LEGACY_BEAR_SLUGS: Record<string, string> = {
-  "early-reflections-on-working-as-a-talent-investor":
-    "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
-};
+const LEGACY_BEAR_SLUGS: Record<string, string> = {};
 
 function readPost(slug: string): string {
   return readFileSync(path.join(CONTENT_DIRECTORY, `${slug}.md`), "utf8");
 }
 
 describe("Bear content migration", () => {
-  it("contains all five migrated posts", () => {
+  it("contains all four migrated posts", () => {
     const slugs = readdirSync(CONTENT_DIRECTORY)
       .filter((fileName) => fileName.endsWith(".md"))
       .map((fileName) => fileName.replace(/\.md$/, ""))
@@ -61,7 +57,7 @@ describe("legacy like snapshot", () => {
 
     expect(capturedRows.map(([slug]) => slug).sort()).toEqual(EXPECTED_SLUGS);
     expect(capturedRows.reduce((total, [, count]) => total + count, 0)).toBe(
-      166,
+      135,
     );
   });
 });

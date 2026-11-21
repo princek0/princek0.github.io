@@ -18,10 +18,6 @@ const BEAR_POSTS = [
     "the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm",
     "hVrIXqZMfnJdbtLwJwNh",
   ],
-  [
-    "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
-    "yqKUDRmdttNvzwFoUcRe",
-  ],
   ["reflections-on-an-ai-security-hackathon-we-ran", "ZHKrCDgJAGIhiwNkyKvq"],
 ];
 

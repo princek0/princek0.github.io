@@ -16,7 +16,6 @@ const POSTS = [
   "dropping-out-of-oxford",
   "checking-out-models-fine-tuning-to-suggest-chessgpts-understanding",
   "the-potential-for-mirror-bacteria-to-cause-unprecedented-and-irreversible-harm",
-  "3-takeaways-from-3-months-at-ef-as-a-talent-investor",
   "reflections-on-an-ai-security-hackathon-we-ran",
 ];
 
