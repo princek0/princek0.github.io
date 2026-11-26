@@ -24,12 +24,11 @@ This list is specifically about people who were born after 2002 and grew up in W
 11. Flexes Product Hunt rankings
 12. Features in public 'founder' showcases, e.g. 'Entrepreneur/Business of the Year'
 13. Focused & got perfect grades during high school
-14. Never offended people with their opinions
-15. Never tried to exploit rules / cheat in games
-16. Scout at a fund but doesn't allocate money
-17. Always had a good sleep schedule and routine
-18. Ambassador for Claude, Lovable, etc.
-19. They have a good 'personal brand'
+14. Never tried to exploit rules / cheat in games
+15. Scout at a fund but doesn't allocate money
+16. Always had a good sleep schedule and routine
+17. Ambassador for Claude, Lovable, etc.
+18. They have a good 'personal brand'
 
 <details>
 <summary>Some important disclaimers</summary>
